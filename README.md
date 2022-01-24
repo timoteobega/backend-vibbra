@@ -12,9 +12,9 @@ API implementada em função do desafio proposto pela [Vibbra](https://www.vibbr
 |     Y     |  Revenue |  POST  |    /api/v{n}/revenues/{customerID}    |                  Create                  |   2   |
 |     Y     |  Revenue |   PUT  |     /api/v{n}/revenues/{revenueID}    |                  Update                  |   2   |
 |     Y     |  Revenue | DELETE |     /api/v{n}/revenues/{revenueID}    |                  Delete                  |   2   |
-|     Y     |  Revenue |  POST  |    /api/v{n}/reports/total-revenue    |        Read total revenue per year       |   2   |
-|     Y     |  Revenue |  POST  |   /api/v{n}/reports/revenue-by-month  | Read total revenue per month of the year |   2   |
-|     Y     |  Revenue |  POST  | /api/v{n}/reports/revenue-by-customer |  Read total revenue by customer per year |   2   |
+|     Y     |  Revenue |  POST  |    /api/v{n}/reports/total-revenue    |        Read total revenue per year       |   4   |
+|     Y     |  Revenue |  POST  |   /api/v{n}/reports/revenue-by-month  | Read total revenue per month of the year |   4   |
+|     Y     |  Revenue |  POST  | /api/v{n}/reports/revenue-by-customer |  Read total revenue by customer per year |   4   |
 |     N     | Settings |   PUT  |           /api/v{n}/settings          |                  Update                  |   2   |
 |     N     | Settings |   GET  |           /api/v{n}/settings          |                    Get                   |   2   |
 |     Y     |   User   |  POST  |             /api/v{n}/auth            |               Request token              |   4   |
@@ -35,7 +35,7 @@ API implementada em função do desafio proposto pela [Vibbra](https://www.vibbr
 |     N     | Category |   PUT  |   /api/v{1}/categories/{categoryID}   |           Archive (soft delete)          |   2   |
 |     N     | Category |   PUT  |   /api/v{1}/categories/{categoryID}   |                  Update                  |   2   |
 |     Y     |    N/A   |   N/A  |                  N/A                  |          Testing and Refactoring         |   4   |
-|     Y     |    N/A   |   N/A  |                  N/A                  |                  Deploy                  |   2   |
+|     Y     |    N/A   |   N/A  |                  N/A                  |                  Deploy                  |   4   |
 |           |          |        |                                       |                         Estimated Hours: |   74  |
 
 ### 📋 Pré-requisitos
