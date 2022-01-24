@@ -46,6 +46,14 @@ São pré-requisitos para implantar essa API:
 3. [Apache](https://www.apachefriends.org/pt_br/index.html) - servidor web sugerido para expor a API
 4. [Insomnia](https://insomnia.rest/download) - ferramenta visual sugerida para consumir a API
 
+### Tecnologias
+
+1. PHP
+2. Laravel
+3. MySQL
+4. Composer
+5. Git
+
 ### 🔧 Instalação
 
 Após devidamente instalados os pré-requisitos acima citados, siga o passo-a-passo para implantar o serviço de API
