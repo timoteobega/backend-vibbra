@@ -30,7 +30,7 @@ FLUSH PRIVILEGES;
 API
 ```
 # Clone o repositório
-$ https://github.com/timoteobega/backend-vibbra.git
+$ git clone https://github.com/timoteobega/backend-vibbra.git
 
 # Entre no diretório do projeto
 $ cd backend-vibbra
